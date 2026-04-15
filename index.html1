@@ -1,0 +1,40 @@
+# Dhruvrathee_website_building_project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Academy Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">ACADEMY</div>
+        <ul class="nav-links">
+            <li><a href="#">Courses</a></li>
+            <li><button class="login-btn">Login</button></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>LEARN WHAT SCHOOL DOESN’T TEACH YOU</h1>
+            <p>Gain practical knowledge and learn real-world skills.</p>
+            <a href="#courses" class="cta-btn">EXPLORE COURSES</a>
+        </div>
+    </header>
+
+    <section id="courses" class="course-container">
+        <h2>BECOME SKILLED AT WHAT MATTERS</h2>
+        <div class="course-card">
+            <span>CONTENT CREATION</span>
+            <h3>THE YOUTUBE BLUEPRINT</h3>
+            <p>Make content creation your career!</p>
+            <button class="start-btn">GET STARTED</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
